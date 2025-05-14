@@ -18,10 +18,10 @@ Speed
 User Experience
 
 ### Algorithm
-STEP 1: Select Source Text:
+### STEP 1: Select Source Text:
 Choose a 500-word technical article on "The Basics of Blockchain Technology".
 
-STEP 2: Define Prompting Techniques:
+### STEP 2: Define Prompting Techniques:
 
 1.Zero-shot: Provide the text and ask for a summary directly.
 
@@ -31,7 +31,7 @@ STEP 2: Define Prompting Techniques:
 
 4.Role-based: Instruct the model to act as a professor, student, or explainer before summarizing.
 
-STEP 3 : Choose AI Platforms:
+### STEP 3 : Choose AI Platforms:
 
 ChatGPT
 
@@ -41,13 +41,13 @@ Claude (Anthropic)
 
 Microsoft Copilot (Bing AI)
 
-STEP 4 : Apply Prompting Techniques:
+### STEP 4 : Apply Prompting Techniques:
 For each platform, use each of the 4 prompting strategies to summarize the same text.
 
-STEP 5 : Collect Outputs:
+### STEP 5 : Collect Outputs:
 Store and label all 16 outputs (4 platforms × 4 prompting techniques).
 
-STEP 6 : Evaluate:
+### STEP 6 : Evaluate:
 Score each output based on the following criteria:
 
 Accuracy (1-5): How factually correct is the summary?
@@ -60,10 +60,10 @@ Speed (sec): Time taken to generate the summary.
 
 User Experience (1-5): Subjective ease of use of platform and clarity of results.
 
-STEP 7 :Rank and Analyze Results:
+### STEP 7 :Rank and Analyze Results:
 Create a table of scores and rank the combinations.
 
-STEP 8 :Conclusion:
+### STEP 8 :Conclusion:
 Identify the most effective prompting + platform combination.
 
 
@@ -71,4 +71,10 @@ Identify the most effective prompting + platform combination.
 
 
 ### Result:
- 
+* The results showed that Claude combined with Chain-of-Thought prompting delivered the most effective summaries. This combination excelled in accuracy, logical flow, and maintaining clarity, especially when simplifying technical terms. While slightly slower than zero-shot methods, the quality trade-off was worth it.
+
+* ChatGPT with zero-shot prompting was the fastest, producing quick summaries that were generally accurate and simple, though sometimes lacked depth.
+
+* Gemini with few-shot prompting provided solid results, especially when the examples were well-chosen. However, performance depended heavily on the quality and relevance of the examples provided.
+
+* Copilot using role-based prompting was easy to work with and produced relatable summaries, but occasionally lost technical accuracy due to over-simplification.
